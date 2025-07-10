@@ -1,66 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Top Offers</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top Health & Fitness Products</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
-    .product { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
-    .product h2 { margin-top: 0; }
-    .more-text { display: none; margin-top: 10px; }
-    .read-more { color: #007bff; cursor: pointer; margin-top: 10px; display: inline-block; }
-    .buy-button { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #28a745; color: white; text-decoration: none; border-radius: 5px; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    .product-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .product-desc {
+      margin-bottom: 15px;
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+    .button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #2980b9;
+    }
   </style>
 </head>
 <body>
 
-  <h1>Maintain good health</h1>
+  <h1>Top Health & Wellness Products – Special Offers & Exclusive Discounts</h1>
 
-  <div class="product">
-    <h2>MITOLYN - Health Supplement</h2>
-    <p>High-converting dietary supplement with $200 CPA or 85% Revshare. Popular for health and fitness enthusiasts.</p>
-    <div class="more-text">Average payout: $184.31 per conversion. Gravity: 501.69. One-time payment. Mobile-friendly affiliate tools.</div>
-    <span class="read-more" onclick="toggleMore(this)">Read more</span>
-    <a href="https://mitolyn.com/affiliates/" target="_blank" class="buy-button">Buy Now</a>
+  <div class="product-card">
+    <div class="product-title">Mitolyn – Powerful Energy & Wellness Supplement</div>
+    <div class="product-desc">
+      Boost your energy and overall health with Mitolyn! Expert-recommended with natural support for better vitality. Now available at a special discount.
+    </div>
+    <div class="buttons">
+      <a class="button" href="#" onclick="alert(`Mitolyn is a premium dietary supplement designed to enhance your body's energy production and support cellular health. It contains powerful natural ingredients like CoQ10, PQQ, and essential vitamins that:
+      
+- Boost mitochondrial function for more natural energy
+- Reduce fatigue and oxidative stress
+- Support brain clarity, heart health, and healthy aging
+
+Ideal for both men and women who want to feel energized, focused, and youthful every day. Trusted by experts and backed by real results. Order now to enjoy limited-time savings!`)">Read More</a>
+      <a class="button" href="https://3b493o4bngoerd6bvf2gdk2m6w.hop.clickbank.net">Buy Now</a>
+    </div>
   </div>
 
-  <div class="product">
-    <h2>HepatoBurn - Weight Loss</h2>
-    <p>High-payout weight loss supplement by top vendors. Exceptional conversion rates and EPCs.</p>
-    <div class="more-text">Average payout: $181.56. Gravity: 150.95. Includes upsell flow and future rebills. Ideal for email and native ads.</div>
-    <span class="read-more" onclick="toggleMore(this)">Read more</span>
-    <a href="https://www.clickbank.com" target="_blank" class="buy-button">Buy Now</a>
+  <div class="product-card">
+    <div class="product-title">ProDentim – Advanced Oral Health Formula</div>
+    <div class="product-desc">
+      Restore your healthy smile with ProDentim! A revolutionary natural supplement for stronger teeth and gums with exclusive limited-time savings.
+    </div>
+    <div class="buttons">
+      <a class="button" href="#" onclick="alert(`ProDentim is an advanced oral health supplement made from clinically proven probiotic strains. It is formulated to:
+
+- Rebuild healthy gum tissue and enamel
+- Eliminate harmful bacteria and bad breath
+- Support the natural microbiome of your mouth
+
+ProDentim contains a blend of 3.5 billion probiotic strains plus essential herbs and minerals for a fresh, healthy mouth. Suitable for all ages. Take control of your dental health naturally!`)">Read More</a>
+      <a class="button" href="https://289a1919vpffr7fotgn3qnldbn.hop.clickbank.net">Buy Now</a>
+    </div>
   </div>
 
-  <div class="product">
-    <h2>ProstaVive - Prostate Health</h2>
-    <p>Men's health supplement targeting prostate support. High AOV and great affiliate payouts.</p>
-    <div class="more-text">Average payout: $150.55. Gravity: 179.63. Optimized for top-tier conversions.</div>
-    <span class="read-more" onclick="toggleMore(this)">Read more</span>
-    <a href="https://www.clickbank.com" target="_blank" class="buy-button">Buy Now</a>
-  </div>
+  <div class="product-card">
+    <div class="product-title">Java Burn 2.0 – New Natural Fat Burner</div>
+    <div class="product-desc">
+      Looking to lose weight naturally and effectively? Java Burn 2.0 is the perfect solution! It helps speed up metabolism and burn fat faster.
+    </div>
+    <div class="buttons">
+      <a class="button" href="#" onclick="alert(`Java Burn 2.0 is a tasteless, odorless powder that you mix with your morning coffee. It contains a unique blend of plant-based nutrients and metabolism-boosting ingredients like:
 
-  <div class="product">
-    <h2>ProDentim - Dental Health</h2>
-    <p>Popular dental probiotic candy with over $4 EPC. Doctor endorsed and proven results.</p>
-    <div class="more-text">Average payout: $133.36. Gravity: 158.87. High-performing in the dental niche with stable earnings.</div>
-    <span class="read-more" onclick="toggleMore(this)">Read more</span>
-    <a href="https://www.clickbank.com" target="_blank" class="buy-button">Buy Now</a>
-  </div>
+- Green tea extract
+- Chromium
+- L-Carnitine
+- Chlorogenic acid
 
-  <script>
-    function toggleMore(el) {
-      const moreText = el.previousElementSibling;
-      if (moreText.style.display === "none" || moreText.style.display === "") {
-        moreText.style.display = "block";
-        el.innerText = "Read less";
-      } else {
-        moreText.style.display = "none";
-        el.innerText = "Read more";
-      }
-    }
-  </script>
+These work synergistically to ignite fat-burning, enhance focus, reduce hunger cravings, and increase energy levels throughout the day. It's keto-friendly, vegan, and easy to use every morning with no lifestyle change needed. Burn fat naturally starting today!`)">Read More</a>
+      <a class="button" href="https://5013dh4avilesfecjte0vfvp1h.hop.clickbank.net">Buy Now</a>
+    </div>
+  </div>
 
 </body>
 </html>
